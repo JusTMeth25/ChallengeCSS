@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 600px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/6380dba4eba4bf79296102ac/1671112395487-AWPYHMGNJW0OMBJFANUA/image-asset.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h3 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+body {
+    font-family: 'Montserrat', italic;
+}
+
+a {
+    font-style: italic;
+    font-weight: 600;
+}
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(0deg, rgb(255 55 49) 0%, rgb(134 158 71) 100%);
+}
+
+.correlated-sites {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    padding-top: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+    color: rgb(255 55 49) ;
+}
+
+.footer {
+    text-align: center;
+    padding: 16px;
+    color: #dfdfdf;
+    background-color: #333;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.description {
+    font-family: 'Montserrat', italic;
+}

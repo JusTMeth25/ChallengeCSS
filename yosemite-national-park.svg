@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Yosemite National Park - illustrazione vettoriale</title>
+  <desc id="desc">Illustrazione SVG originale ispirata a Yosemite National Park con montagne, Half Dome, cascata, pini e tramonto.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ec8ff"/>
+      <stop offset="55%" stop-color="#f7c27b"/>
+      <stop offset="100%" stop-color="#f5e3b3"/>
+    </linearGradient>
+
+    <linearGradient id="dome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8c2a3"/>
+      <stop offset="100%" stop-color="#8d7a67"/>
+    </linearGradient>
+
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dff7ff"/>
+      <stop offset="100%" stop-color="#4aa8d8"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <!-- Sun -->
+  <circle cx="925" cy="160" r="72" fill="#ffd36b" opacity="0.95"/>
+  <circle cx="925" cy="160" r="108" fill="#ffd36b" opacity="0.18"/>
+
+  <!-- Distant mountains -->
+  <path d="M0 485 L120 360 L230 452 L345 305 L500 470 L625 330 L760 455 L915 285 L1200 505 L1200 800 L0 800 Z"
+        fill="#637f7a" opacity="0.45"/>
+
+  <path d="M0 540 L155 400 L305 525 L445 365 L590 535 L765 392 L925 535 L1070 410 L1200 520 L1200 800 L0 800 Z"
+        fill="#426760" opacity="0.65"/>
+
+  <!-- Yosemite cliffs -->
+  <path d="M105 625 C145 495 220 400 315 375 C390 355 455 420 500 520 C535 595 590 640 665 650 L665 800 L90 800 Z"
+        fill="#9b8069" filter="url(#softShadow)"/>
+
+  <path d="M665 650 C735 600 760 520 790 445 C830 345 910 270 1000 285 C1090 300 1145 430 1200 590 L1200 800 L665 800 Z"
+        fill="url(#dome)" filter="url(#softShadow)"/>
+
+  <!-- Half Dome face -->
+  <path d="M810 640 C870 548 895 420 905 307 C954 285 1023 298 1070 354 C1125 420 1155 520 1200 590 L1200 800 L780 800 Z"
+        fill="#7d6b5c" opacity="0.75"/>
+
+  <!-- Cliff highlights -->
+  <path d="M203 620 C238 510 302 430 370 405" fill="none" stroke="#d0b18e" stroke-width="12" stroke-linecap="round" opacity="0.55"/>
+  <path d="M900 360 C940 340 1005 355 1045 405" fill="none" stroke="#ead4b5" stroke-width="10" stroke-linecap="round" opacity="0.45"/>
+  <path d="M985 420 C1025 478 1040 565 1042 650" fill="none" stroke="#5f5147" stroke-width="8" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Waterfall -->
+  <path d="M514 445 C535 520 530 600 552 690 C558 720 575 748 585 800 L500 800 C515 748 494 705 492 660 C489 585 509 520 514 445 Z"
+        fill="url(#water)" opacity="0.92"/>
+  <path d="M535 485 C548 565 544 638 564 720" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.65"/>
+  <path d="M508 705 C548 692 583 700 623 727 C570 722 532 732 490 758 C497 738 502 720 508 705 Z"
+        fill="#dff7ff" opacity="0.55"/>
+
+  <!-- Valley floor -->
+  <path d="M0 650 C150 625 300 645 455 668 C640 695 780 670 940 635 C1040 613 1135 618 1200 640 L1200 800 L0 800 Z"
+        fill="#476f42"/>
+
+  <path d="M0 704 C155 688 310 712 470 725 C655 740 820 718 1005 686 C1088 672 1155 675 1200 688 L1200 800 L0 800 Z"
+        fill="#2f5634"/>
+
+  <!-- River -->
+  <path d="M430 800 C500 760 575 748 650 740 C750 730 820 700 905 675 C830 735 790 770 780 800 Z"
+        fill="#3d9dcc" opacity="0.9"/>
+  <path d="M500 795 C575 770 680 755 760 728" fill="none" stroke="#dff7ff" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Pine tree symbol groups -->
+  <g fill="#1f3f2a">
+    <path d="M110 695 L152 610 L194 695 Z"/>
+    <path d="M118 650 L152 575 L186 650 Z"/>
+    <rect x="145" y="690" width="14" height="55" rx="3" fill="#4f3324"/>
+
+    <path d="M250 710 L300 605 L350 710 Z"/>
+    <path d="M260 660 L300 565 L340 660 Z"/>
+    <rect x="292" y="705" width="16" height="60" rx="3" fill="#4f3324"/>
+
+    <path d="M970 700 L1015 602 L1060 700 Z"/>
+    <path d="M982 653 L1015 575 L1048 653 Z"/>
+    <rect x="1008" y="695" width="15" height="58" rx="3" fill="#4f3324"/>
+
+    <path d="M1075 720 L1128 610 L1181 720 Z"/>
+    <path d="M1088 665 L1128 570 L1168 665 Z"/>
+    <rect x="1120" y="715" width="17" height="60" rx="3" fill="#4f3324"/>
+  </g>
+
+  <!-- Foreground frame -->
+  <rect x="30" y="30" width="1140" height="740" rx="36" fill="none" stroke="#ffffff" stroke-width="12" opacity="0.55"/>
+
+  <!-- Text badge -->
+  <g transform="translate(72 70)">
+    <rect width="405" height="86" rx="24" fill="#163524" opacity="0.82"/>
+    <text x="28" y="38" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">
+      YOSEMITE
+    </text>
+    <text x="28" y="68" fill="#dcebd2" font-family="Arial, sans-serif" font-size="19" letter-spacing="4">
+      NATIONAL PARK
+    </text>
+  </g>
+</svg>
